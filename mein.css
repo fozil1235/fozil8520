@@ -1,0 +1,39 @@
+.limiter {
+    display: -webkit-box;
+    overflow: hidden;
+    min-height: 5px;
+    white-space: normal;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+}
+
+
+
+.nav {
+    width: 100%;
+    padding: 0 15px;
+    background: #636363;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    z-index: 1;
+
+
+}
+
+.left-nav_list {
+    display: flex;
+    gap: 34px;
+    align-items: center;
+}
+
+.nav-link {
+    color: var(--bs-white);
+    font-family: var(--font-Rob);
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 500ms;
+    /* position: relative; */
+}
+
